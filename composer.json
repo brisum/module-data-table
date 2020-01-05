@@ -1,0 +1,19 @@
+{
+  "name": "brisum/module-data-table",
+  "description": "Data table",
+  "keywords": [],
+  "homepage": "https://github.com/brisum/php-module-data-table",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Oleksandr Manchenko",
+      "email": "omanchenko@brisum.com",
+      "homepage": "http://brisum.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Brisum\\DataTable\\": "src/"
+    }
+  }
+}

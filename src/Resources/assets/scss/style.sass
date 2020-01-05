@@ -1,0 +1,28 @@
+table.data-table-editable
+  .cell-editable 
+    position: relative
+    display: inline-block
+    border-bottom: 1px dashed black
+
+    &.edit 
+      border-bottom: none
+      width: 100%
+
+      textarea 
+        min-width: 500px
+        min-height: 100px
+      
+    &.loading:before
+      position: absolute
+      content: ' '
+      top: 0
+      left: 0
+      bottom: 0
+      right: 0
+      background: rgba(255, 255, 255, 0.5)
+    
+  td.edit-textarea
+    min-width: 500px
+    min-height: 100px
+  
+
